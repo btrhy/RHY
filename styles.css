@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+h1,h2,h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    color: #444;
+	text-align: center;
+	position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    margin-top:0.2em;
+    margin-bottom:0.2em;
+}
+
+h2 {
+    font-weight:100;
+}
+h3 {
+    font-size:1em;
+    margin-top:0.75em;
+    color: #999;
+}
+
+a{
+    padding:0.3em;
+}
+
+.center {
+    size:inherit;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.icons{
+    padding-top:1em;
+    margin: auto;
+    display:inline-block;
+
+}
+
+.sidebyside{
+    float:left;
+    padding-left:1em;
+    padding-right:1em;
+
+}
